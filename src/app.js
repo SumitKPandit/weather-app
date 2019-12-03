@@ -66,11 +66,6 @@ app.get('/weather', (req, res) => {
         });
     });
 
-    // res.send({
-    //     address: req.query.address,
-    //     location: 'Bengaluru, Karnataka, India',
-    //     forecast: 'Possible light rain in the evening. It is currently 24.95 degrees out. There is a 33% chance of rain.'
-    // });
 });
 
 app.get('/products', (req, res) => {
